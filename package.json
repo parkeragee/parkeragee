@@ -22,7 +22,6 @@
     "grunt": "^1.0.1",
     "grunt-contrib-htmlmin": "^2.4.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^2.0.0",
-    "grunt-serve": "^0.1.6"
+    "grunt-sass": "^2.0.0"
   }
 }
