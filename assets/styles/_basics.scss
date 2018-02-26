@@ -35,7 +35,20 @@ body {
   font-size: 48px;
   font-weight: 600;
   
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+.header a {
+  color: #FFF;
+
+  i {
+    font-size: 34px;
+    letter-spacing: 20px;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }
 .header h1 span {
   text-transform: none;
