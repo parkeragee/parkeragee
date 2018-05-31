@@ -1,0 +1,37 @@
+body {
+    font-family: 'Lora', serif;
+    font-size: 100%;
+    color: #4a4a4a;
+}
+
+button {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -0.2rem;
+    margin-bottom: 12px;
+}
+
+p, label, li {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: -0.05rem;
+
+    &.join {
+        font-weight: 700;
+    }
+}
+
+li {
+    margin-bottom: 14px;
+}
+
+
+.provider.intro p {
+    margin-bottom: 30px;
+}

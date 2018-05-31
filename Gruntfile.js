@@ -11,7 +11,7 @@ module.exports = function(grunt) {
         },
         watch: {
             html: {
-                files: ['./index.html'],
+                files: ['./**/*.html', "!./dist/*.html"],
                 tasks: ['htmlmin']
             },
             sass: {
@@ -45,7 +45,8 @@ module.exports = function(grunt) {
                     minifyCSS: true
                 },
                 files: {
-                    'dist/index.html': './index.html'
+                    'dist/index.html': './index.html',
+                    'dist/thanks.html': './thanks.html',
                 }
             }
         },
