@@ -16,7 +16,7 @@ h1 {
     margin-bottom: 12px;
 }
 
-p, label {
+p, label, li {
     font-size: 1.6rem;
     line-height: 1.4;
     font-weight: 400;
@@ -26,6 +26,11 @@ p, label {
         font-weight: 700;
     }
 }
+
+li {
+    margin-bottom: 14px;
+}
+
 
 .provider.intro p {
     margin-bottom: 30px;
