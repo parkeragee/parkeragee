@@ -23,3 +23,10 @@ a {
     text-align: center;
     margin-top: 10px;
 }
+
+.bg-img {
+    background: url(mountain.jpg) no-repeat center 35%;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
