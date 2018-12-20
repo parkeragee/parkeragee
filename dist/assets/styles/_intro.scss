@@ -3,6 +3,10 @@
     max-width: 900px;
     margin: -80px auto;
 
+    &.thanks {
+        margin: 80px auto 0;
+    }
+
     form {
         text-align: left;
         max-width: 300px;
@@ -13,6 +17,10 @@
         background: #fafafa;
         border: 1px solid #E9E9E9;
         margin-top: 100px;
+
+        &.home {
+            padding: 40px;
+        }
 
         &.ghost {
             background: #FFF;
