@@ -19,16 +19,14 @@
    <div class="container">
       <div class="intro">
          <img class="logo" src="assets/parker.jpg" alt="Parker Agee">
-         <h1>Parker Agee</h1>
-         <p>👋 I&rsquo;m the Founder of <a target="_blank" href="https://sullylabs.com">SullyLabs</a>, you can read my <a href="https://blog.parkeragee.com">blog</a>, follow me on <a href="https://twitter.com/parkeragee">Twitter</a>, or shoot me an <a href="mailto:parker@parkeragee.com">email</a>.</p>
-
-         <div class="signup home">
-            <p>Sign up for my email newsletter and I&rsquo;ll send you my random thoughts on business, technology, etc.</p>
-            <form netlify-honeypot="bot-field" action="thanks" name="Parker Agee website" netlify>
+         <h1>Instagram Close Friends</h1>
+         <p>Join my Close Friends list on Instagram for just $10 to see <b>all</b> of my content.</p>
+         <div class="signup ghost">
+            <form id="closefriend-form" netlify-honeypot="bot-field" name="Instagram Close Friends" netlify>
                <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
-               <input placeholder="Enter email" type="email" name="email" required>
-               <button type="submit">Join now</button>
-               <div class="disclaimer">I promise not to spam your inbox</div>
+               <input placeholder="Your name" type="text" name="name" required>
+               <input placeholder="Enter your Instagram username" type="text" name="username" required>
+               <button class="closefriend-submit" type="submit">Join now</button>
             </form>
          </div>
       </div>
@@ -38,5 +36,15 @@
          </div>
       </footer>
    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+   $("#closefriend-form").submit(function(e) {
+      e.preventDefault();
+      var $form = $(this);
+      $.post($form.attr("action"), $form.serialize()).then(function(err, success) {
+         return window.location='https://paypal.me/parkeragee/10';
+      });
+   });
+</script>
 </body>
 </html>

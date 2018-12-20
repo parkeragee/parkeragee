@@ -48,6 +48,7 @@ module.exports = function(grunt) {
                     'dist/index.html': './index.html',
                     'dist/thanks.html': './thanks.html',
                     'dist/cam.html': './cam.html',
+                    'dist/closefriends.html': './closefriends.html',
                 }
             }
         },

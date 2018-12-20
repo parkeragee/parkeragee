@@ -6,7 +6,7 @@
   "scripts": {
     "start": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "grunt build && netlify deploy"
+    "deploy": "grunt build && cp _redirects dist && netlify deploy"
   },
   "repository": {
     "type": "git",

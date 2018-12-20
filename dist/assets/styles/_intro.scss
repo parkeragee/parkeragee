@@ -12,8 +12,17 @@
     .signup {
         background: #fafafa;
         border: 1px solid #E9E9E9;
-        padding: 40px;
         margin-top: 100px;
+
+        &.ghost {
+            background: #FFF;
+            border: none;
+            margin-top: 0;
+
+            form {
+                max-width: 420px;
+            }
+        }
     }
 
     label {
