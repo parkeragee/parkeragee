@@ -50,6 +50,7 @@ module.exports = function(grunt) {
                     'dist/cam.html': './cam.html',
                     'dist/closefriends.html': './closefriends.html',
                     'dist/open.html': './open.html',
+                    'dist/react-developer-for-hire.html': './react-developer-for-hire.html',
                 }
             }
         },
