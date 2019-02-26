@@ -5,19 +5,19 @@
 
 [[redirects]]
   from = "/tw"
-  to = "https://twitter.com/parkeragee?source=urlshortener"
+  to = "/.netlify/functions/redirect?https://twitter.com/parkeragee"
 
 [[redirects]]
   from = "/ig"
-  to = "https://instagram.com/parkeragee?source=urlshortener"
+  to = "/.netlify/functions/redirect?https://instagram.com/parkeragee"
 
 [[redirects]]
   from = "/pay"
-  to = "https://pay.sullylabs.com?source=urlshortener"
+  to = "/.netlify/functions/redirect?https://pay.sullylabs.com"
 
 [[redirects]]
   from = "/mail"
-  to = "https://mail.parkeragee.com?source=urlshortener"
+  to = "/.netlify/functions/redirect?https://mail.parkeragee.com"
 
 [[redirects]]
   from = "/count"
