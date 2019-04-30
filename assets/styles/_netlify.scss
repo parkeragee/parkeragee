@@ -1,0 +1,37 @@
+.netlify {
+
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    h3 {
+        font-size: 1.9rem;
+        font-weight: 600;
+        margin: 40px auto;
+    }
+
+    .skillset {
+        display: flex;
+        flex-wrap: wrap;
+
+        .skill {
+            display: flex;
+            border-radius: 3px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+            padding: 40px;
+            justify-content: center;
+            align-items: center;
+            max-width: calc(25% - 40px);
+            margin: 20px;
+
+            @media(max-width: 820px) {
+                max-width: calc(50% - 40px);
+            }
+
+            @media(max-width: 480px) {
+                max-width: calc(100% - 40px);
+            }
+        }
+    }
+}
