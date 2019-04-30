@@ -51,6 +51,7 @@ module.exports = function(grunt) {
                     'dist/closefriends.html': './closefriends.html',
                     'dist/open.html': './open.html',
                     'dist/react-developer-for-hire.html': './react-developer-for-hire.html',
+                    'dist/netlify-hire-me-please.html': './netlify-hire-me-please.html',
                 }
             }
         },
