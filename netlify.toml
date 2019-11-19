@@ -8,16 +8,16 @@
 
 [[redirects]]
   from = "/ig"
-  to = "/.netlify/functions/redirect?https://instagram.com/parkeragee"
+  to = "https://instagram.com/parkeragee"
 
 [[redirects]]
   from = "/pay"
-  to = "/.netlify/functions/redirect?https://pay.sullylabs.com"
+  to = "https://pay.sullylabs.com"
 
 [[redirects]]
   from = "/mail"
-  to = "/.netlify/functions/redirect?https://mail.parkeragee.com"
+  to = "https://mail.parkeragee.com"
 
 [[redirects]]
   from = "/count"
-  to = "/.netlify/functions/redirect?url=https://google.com"
+  to = "https://google.com"
