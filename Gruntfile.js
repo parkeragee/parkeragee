@@ -47,13 +47,7 @@ module.exports = function(grunt) {
                 files: {
                     'dist/index.html': './index.html',
                     'dist/thanks.html': './thanks.html',
-                    'dist/cam.html': './cam.html',
-                    'dist/closefriends.html': './closefriends.html',
-                    'dist/open.html': './open.html',
                     'dist/react-developer-for-hire.html': './react-developer-for-hire.html',
-                    'dist/netlify-hire-me-please.html': './netlify-hire-me-please.html',
-                    'dist/bradford-outline.html': './bradford-outline.html',
-                    'dist/akismet-process.html': './akismet-process.html',
                 }
             }
         },
