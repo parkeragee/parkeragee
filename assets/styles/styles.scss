@@ -51,3 +51,16 @@ a {
 }
 
 @import 'netlify';
+
+.tech {
+    p {
+        margin-bottom: 18px;
+        font-size: 16px;
+    }
+
+    div {
+        display: inline-block;
+        margin-right: 18px;
+        text-align: center;
+    }
+}

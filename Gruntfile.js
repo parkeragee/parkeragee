@@ -48,6 +48,7 @@ module.exports = function(grunt) {
                     'dist/index.html': './index.html',
                     'dist/thanks.html': './thanks.html',
                     'dist/react-developer-for-hire.html': './react-developer-for-hire.html',
+                    'dist/fyi.html': './fyi.html',
                 }
             }
         },
