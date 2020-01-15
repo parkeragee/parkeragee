@@ -15,6 +15,9 @@
    <link rel="stylesheet" href="assets/styles.css">
    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
    <style>p { margin-bottom: 18px; } .tech svg { max-width:80px;height:80px; }</style>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/dayjs/1.8.17/dayjs.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/dayjs/1.8.17/plugin/relativeTime.js"></script>
+   <script>dayjs.extend(relativeTime);</script>
 </head>
 <body>
    <div class="bg-img"></div>
@@ -25,7 +28,7 @@
          <div style="text-align:left;">
             <p>Hi, FYI!</p>
             <p>I'm interested in learning more about the Senior Frontend Engineer role at FYI, so I decided to throw up this post and tell you a little about myself.</p>
-            <p>I'm currently a Sr. Software Engineer (working remotely) at <a rel="noopener" href="https://campaignmonitor.com">Campaign Monitor</a> working on the <a target="_blank" rel="noopener" href="https://myemma.com">Emma</a> product</p>
+            <p>I'm currently a Sr. Software Engineer working remotely at <a rel="noopener" href="https://campaignmonitor.com">Campaign Monitor</a> on the <a target="_blank" rel="noopener" href="https://myemma.com">Emma</a> product. I've been Campaign Monitor for <span id="time"></span> now. I'm a member of the Data Team and we handle building and maintaining all aspects of the app pertaining to member data. This inlcudes the list of members/contacts, the segment builder, public forms, embeddable forms, contact fields, etc.</p>
             <p><b>Some of my favorite technologies:</b></p>
             <div class="tech">
                <div>
@@ -156,5 +159,10 @@
          </div>
       </footer>
    </div>
+<script>
+  var timeEl = document.getElementById('time');
+  var time = dayjs().from('2014-07-01');
+  console.log(time);
+</script>
 </body>
 </html>
