@@ -4,4 +4,6 @@ Hey! Thanks for checking out my profile. I created [HireRemotely](https://hirere
 
 <a href="https://www.buymeacoffee.com/parker" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
 
+[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
+
 Visitor count: ![Visitor Count](https://profile-counter.glitch.me/parkeragee/count.svg)
